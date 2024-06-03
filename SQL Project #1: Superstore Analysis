@@ -1,0 +1,19 @@
+# SQL
+
+Select *
+From superstore
+Order by price;
+
+SELECT  
+SUM(price)
+From superstore;
+
+SELECT 
+AVG(price)
+FROM superstore
+WHERE category = 'Kitchen Supplies';
+
+Select
+Sum(stock_quantity)
+From superstore
+Where stock_quantity= 'Air Purifier'
